@@ -394,13 +394,18 @@ border: none;
 }
 .input-number{
     border: none !important;
-     width: 75px !important;
-     text-align: center;
+     width: 40px !important;
+     text-align: left;
      font-style: normal;
 font-weight: 700;
 font-size: 18px;
 color: #22C55E;
 
+}
+.currency-icon{
+font-weight: 700;
+font-size: 18px;
+color: #22C55E;
 }
 .modal-textarea{
     background: #FFFFFF;
@@ -420,6 +425,16 @@ border-radius: 6px;
     .modal-section-header {
         padding: 15px
     }
+    .modal-section-header-red {
+        padding: 15px;
+    }
+    .input-row {
+       flex-direction: column;
+    }
+    
+.dateTime-input {
+    width:100% !important;
+}
 }
 
 @media only screen and (max-width:424px) {
@@ -438,5 +453,14 @@ border-radius: 6px;
     .modal-section-body--col-1,
     .modal-section-body--col-2 {
         width: 100%;
+    }
+    
+}
+@media only screen and (max-width:390px) {
+   
+    .add-btn-div{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
     }
 }
