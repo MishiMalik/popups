@@ -435,6 +435,9 @@ border-radius: 6px;
 .dateTime-input {
     width:100% !important;
 }
+.modal-form .modal-form-input {
+    width: 100% !important;
+}
 }
 
 @media only screen and (max-width:424px) {
@@ -463,4 +466,5 @@ border-radius: 6px;
         align-items: flex-start !important;
         justify-content: flex-start !important;
     }
+ 
 }
