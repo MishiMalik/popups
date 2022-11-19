@@ -82,10 +82,13 @@ color: #6B7280;
     margin: 15px 0px;
 }
 .table>:not(caption)>*>*{
-    padding: 7px !important;
+    padding: 7px ;
     background-color: transparent !important;
     border-bottom-width:0px !important;
     box-shadow: none !important;
+}
+.modal-table{
+    margin: 25px 0px;
 }
 .modal-table-text{
     font-weight: 600;
