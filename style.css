@@ -302,7 +302,9 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     stroke: white !important;
     z-index: 10;
 }
-
+input[type="datetime-local"]::after{
+    display: none !important;
+}
 .input-row {
     display: flex;
     justify-content: space-between;
