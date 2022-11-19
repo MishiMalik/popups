@@ -306,6 +306,8 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 }
 input[type="datetime-local"]::after{
     display: none !important;
+    border: none !important;
+    background-image: none !important;
 }
 .input-row {
     display: flex;
