@@ -296,7 +296,7 @@ color: #0F172A;
 input[type="datetime-local"]::-webkit-inner-spin-button,
 input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     color: white !important;
-    opacity: 0;
+    opacity: 0 !important;
     background-color: white;
     fill: white !important;
     stroke: white !important;
